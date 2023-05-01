@@ -16,7 +16,7 @@ sudo -S ip ro a 192.168.1.110 via 192.168.2.1 dev ens20
 
 sudo arp -i ens18 -Ds 192.168.1.110 ens18 pub
 sudo arp -i ens19 -Ds 10.88.81.110 ens19 pub
-sudo arp -i ens20 -Ds 192.168.2.110 ens20 pub #test
+sudo arp -i ens20 -Ds 192.168.2.110 ens20 pub #testdfad
 
 
 #iperf3 -c 192.168.2.110 -B 192.168.1.100 -P8 -R
